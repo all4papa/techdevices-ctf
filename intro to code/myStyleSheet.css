@@ -1,0 +1,13 @@
+/* CSS File located in the same directory as index.html (myStyleSheet.css) */
+p {
+	color: blue;
+}
+a:visited {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  a:hover {
+    color: purple;
+    font-weight: bold;
+  }

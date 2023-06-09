@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TECH-DEVICES</title>
+    </head>
+    <style type="text/css">
+			p {
+	color: rgb(102, 102, 218);
+	font-weight: bold;
+	font-size: 14px;
+}
+h1 {
+  color: rgb(149, 78, 78);
+}
+		</style>
+    <p style="color:#020202">The World as you never knew it</p>
+    <body style="background-color:#d0e0ea">
+        <div style="background:black;border:1px solid #cccccc;padding: 10px;" contextmenu="mymenu">
+            <input placeholder="Search Flexbox..." aria-label="Search" class="search-bar__input" type="text" autocomplete="off" name="q" data-analytics-prop-click-action="search-query-edit">
+            <p>Right-click inside this box to see the context menu!</p>
+            
+            <menu type="context" id="mymenu">
+              <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+              <menu label="Share on...">
+                <menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);"></menuitem>
+                <menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);"></menuitem>
+              </menu>
+              <menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+            </menu>
+            
+            </div>
+        <p><b><h1>Flexbox Solutions has launched Techdevices.com as a platform to showcase various technological innovations</h1></b></p>
+        <p></p>
+        <img src="../images/meta quest.jfif" alt="Meta's New VR Set-Quest">
+        <img src="../images/vision pro.jfif" alt="Apple's New VR Set-Vision Pro">
+        <h2>Login Page</h2>
+  <form  action="./formSuccess.html">
+  <label for="fname">Username/E-mail:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Password:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+
+  <input type="submit" value="Submit">
+</form>
+
+    </body>
+</html>
